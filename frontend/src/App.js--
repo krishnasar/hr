@@ -1,0 +1,104 @@
+import React from 'react';
+import EmployeesTable from './components/EmployeesTable';
+import DepartmentsTable from './components/DepartmentsTable';
+import TabsComponent from './components/TabsComponent';
+import TabsComponent1 from './components/TabsComponent1';
+
+function App() {
+  /*  return (
+     <div style={{ display:'flex', width: '1500m'}}>
+     <div style={{height: '100m', width: '1500m'}}>
+       <EmployeesTable />
+        </div>
+        <div style={{height: '100m'}}>
+       <DepartmentsTable />
+       </div>
+    
+     </div>
+   ); */
+
+  /*
+
+    return (
+    <div style={{ display: 'flex', flexDirection: 'column-reverse', border: '1px solid black' }}>
+      <div style={{ padding: '10px',border: '1px solid black' }}>Box A</div>
+      <div style={{ padding: '10px' , border: '1px solid black'}}>Box B</div>
+      <div style={{ padding: '10px', border: '1px solid black' }}>Box c</div>
+      <div style={{ padding: '10px' ,border: '1px solid black'}}>Box d</div>
+    </div>
+  );
+*/
+
+  /*
+  
+    return (
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '200px',
+        border: '1px solid blue'
+      }}>
+        <div style={{ backgroundColor: 'lightblue', padding: '20px' }}>Centered Box</div>
+      </div>
+    );
+  */
+
+
+  return (
+    /*
+    <div style={{
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'baseline', // Try: flex-start, flex-end, baseline, stretch
+      alignContent: 'space-around',
+      height: '150px',
+      border: '2px solid black'
+    }}>
+      <div style={{ width: '60px', height: '50px', backgroundColor: 'red' }}>A</div>
+      <div style={{ width: '60px', height: '80px', backgroundColor: 'green' }}>B</div>
+      <div style={{ width: '60px', height: '40px', backgroundColor: 'blue' }}>C</div>
+    </div> */
+
+    <div className="App">
+      <TabsComponent1 />
+    </div>
+
+  );
+
+
+  /*
+    return (
+      <div style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        border: '1px solid red',
+        width: '200px'
+      }}>
+        {Array.from({ length: 6 }).map((_, i) => (
+          <div key={i} style={{ width: '100px', height: '50px', backgroundColor: '#ddd', margin: '5px' }}>
+            Box {i + 1}
+          </div>
+        ))}
+      </div>
+    );
+  */
+
+
+  /*
+      return (
+      <div style={{
+        display: 'flex',
+        flexDirection: window.innerWidth < 600 ? 'column' : 'row',
+      }}>
+        <div style={{ flex: 1, border: '1px solid red', }}>Menu</div>
+        <div style={{ flex: 5,border: '1px solid red', }}>Content</div>
+      </div>
+    );
+  */
+
+
+
+}
+
+export default App;

@@ -1,0 +1,18 @@
+1. The api for the countries is 
+
+http://localhost:5000/api/countries
+
+Output of the api is 
+
+[{"country_id":"AR","country_name":"Argentina","region_id":3},{"country_id":"AU","country_name":"Australia","region_id":5},{"country_id":"BR","country_name":"Brazil","region_id":3},{"country_id":"CA","country_name":"Canada","region_id":2},{"country_id":"CN","country_name":"China","region_id":4},{"country_id":"DE","country_name":"Germany","region_id":1},{"country_id":"EG","country_name":"Egypt","region_id":6},{"country_id":"ES","country_name":"Spain","region_id":1},{"country_id":"FR","country_name":"France","region_id":1},{"country_id":"IN","country_name":"India","region_id":4},{"country_id":"IT","country_name":"Italy","region_id":1},{"country_id":"JP","country_name":"Japan","region_id":4},{"country_id":"KR","country_name":"South Korea","region_id":4},{"country_id":"MX","country_name":"Mexico","region_id":2},{"country_id":"NL","country_name":"Netherlands","region_id":1},{"country_id":"RU","country_name":"Russia","region_id":1},{"country_id":"SG","country_name":"Singapore","region_id":4},{"country_id":"UK","country_name":"United Kingdom","region_id":1},{"country_id":"US","country_name":"United States of America","region_id":2},{"country_id":"ZA","country_name":"South Africa","region_id":6}]
+
+
+1. create the react component from which we can perform CRUD operation in countries tables.
+2. The code should be separate from style code but  style and code should  be within the component. 
+3. The should follow the standard project structure for react component. ( routes, context, layouts, pages, features, services, hooks, components, utils ). 
+4. The table should have pasignation, filter , sorting and export to docx, excel, csv , pdf. 
+
+
+
+
+

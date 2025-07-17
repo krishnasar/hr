@@ -1,0 +1,44 @@
+create the react forms that will used to fill the below tables. The style should be inside the components but separate from the code. The input , label and error should be in the same row of the table. The forms elements should b  CREATE TABLE countries (
+  country_id     CHAR(2) PRIMARY KEY,
+  country_name   VARCHAR2(40),
+  region_id      NUMBER
+);
+e wrapped inside the table . 
+
+
+create the react forms that will be used to fill the below tables. 
+The style should be inside the components but separate from the code. 
+The input , label and error should be in the same row of the table. 
+The forms elements should be wrapped inside the table . 
+
+CREATE TABLE job_history (
+  employee_id   NUMBER NOT NULL,
+  start_date    DATE NOT NULL,
+  end_date      DATE NOT NULL,
+  job_id        VARCHAR2(10) NOT NULL,
+  department_id NUMBER
+);
+
+
+create the react reports  that display the data from  below tables. 
+The style should be inside the components but separate from the code. 
+paging, sorting and filtering should be enabled . The table showing the data should be well styled. 
+
+CREATE TABLE countries (
+  country_id     CHAR(2) PRIMARY KEY,
+  country_name   VARCHAR2(40),
+  region_id      NUMBER
+);
+
+
+create the react reports  that display the data from  below tables. 
+The style should be inside the components but separate from the code. 
+paging, sorting and filtering should be enabled . The table showing the data should be well styled. 
+
+CREATE TABLE job_history (
+  employee_id   NUMBER NOT NULL,
+  start_date    DATE NOT NULL,
+  end_date      DATE NOT NULL,
+  job_id        VARCHAR2(10) NOT NULL,
+  department_id NUMBER
+);

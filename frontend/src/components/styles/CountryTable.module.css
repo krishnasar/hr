@@ -1,0 +1,79 @@
+/* src/components/CountryTable/CountryTable.module.css */
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.search {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 300px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.table th {
+  cursor: pointer;
+  background: #f0f0f0;
+}
+
+.pagination button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.pagination .active {
+  font-weight: bold;
+  background-color: #333;
+  color: white;
+}
+
+.exportButtons {
+  margin-top: 15px;
+}
+
+.exportButtons button {
+  margin-right: 10px;
+  padding: 6px 12px;
+}
+
+
+.form {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.input {
+  padding: 6px 10px;
+  font-size: 14px;
+  width: 150px;
+  height: 20px;
+}
+
+.button {
+  padding: 6px 15px;
+  background-color: #007bff;
+  color: rgb(10, 113, 31);
+  border: none;
+  cursor: pointer;
+}
+
+.buttonCancel {
+  padding: 6px 15px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

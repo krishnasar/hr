@@ -1,0 +1,57 @@
+[
+  {
+    "employee_id": 118,
+    "first_name": "John7",
+    "last_name": "Doe8",
+    "email": "john.doe8@example.com",
+    "phone_number": "555-1234",
+    "hire_date": "2025-07-07",
+    "job_id": "DEV01",
+    "salary": "60000.00",
+    "department_id": 10
+  },
+  {
+    "employee_id": 111,
+    "first_name": "John7",
+    "last_name": "Doe8",
+    "email": "john.doe1@example.com",
+    "phone_number": "555-1234",
+    "hire_date": "2025-07-07",
+    "job_id": "DEV01",
+    "salary": "60000.00",
+    "department_id": 10
+  },
+  {
+    "employee_id": 112,
+    "first_name": "John7",
+    "last_name": "Doe8",
+    "email": "john.doe2@example.com",
+    "phone_number": "555-1234",
+    "hire_date": "2025-07-07",
+    "job_id": "DEV01",
+    "salary": "60000.00",
+    "department_id": 10
+  },
+  {
+    "employee_id": 113,
+    "first_name": "John7",
+    "last_name": "Doe8",
+    "email": "john.doe3@example.com",
+    "phone_number": "555-1234",
+    "hire_date": "2025-07-07",
+    "job_id": "DEV01",
+    "salary": "60000.00",
+    "department_id": 10
+  },
+  {
+    "employee_id": 114,
+    "first_name": "John7",
+    "last_name": "Doe8",
+    "email": "john.doe4@example.com",
+    "phone_number": "555-1234",
+    "hire_date": "2025-07-07",
+    "job_id": "DEV01",
+    "salary": "60000.00",
+    "department_id": 10
+  }
+]
